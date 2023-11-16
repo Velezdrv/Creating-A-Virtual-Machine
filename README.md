@@ -6,8 +6,15 @@
 
 <h2>Environments and Technologies Used</h2>
 
-- Windodws 11 Pro
 - Microsoft Azure
 - Microsoft Remote Desktop
 - Windows Command Prompt
+- 
+<h2>Operating Systems Used</h2>
+
+- Windodws 11 Pro
 - Windows 10 (Virtual Machine)
+
+
+
+
