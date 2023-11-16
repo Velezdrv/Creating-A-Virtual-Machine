@@ -20,4 +20,8 @@
 - Microsoft Azure Account and Subscription
 - Access to Microsoft Remote Desktop Connection
 
-    
+<h2>Creating our Resource Group and Virtual Machines </h2>
+ 
+- Resource Group
+  - Through Azure Services, go to Resource groups to create a Resource Group and name your Resource Group RG-VM. Take note of the Region of your Resouce Group as it'll come in play when setting up our VMs. Once done, then click on Review + Create
+   
