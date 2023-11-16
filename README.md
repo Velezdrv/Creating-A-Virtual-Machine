@@ -9,7 +9,7 @@
 - Microsoft Azure
 - Microsoft Remote Desktop
 - Windows Command Prompt
-- 
+
 <h2>Operating Systems Used</h2>
 
 - Windodws 11 Pro
