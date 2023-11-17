@@ -25,3 +25,10 @@
 - Resource Group
   - Through Azure Services, go to Resource groups to create a Resource Group and name your Resource Group RG-VM. Take note of the Region of your Resouce Group as it'll come in play when setting up our VMs. Once done, then click on Review + Create
    
+
+
+
+- Virtual Machine 1 using Windows 10
+  - Through Azure Services, go to Virtual Machines to create an Azure Virtual Machine. Select the Resource group we've created (RG-VM) and name the virtual machine VM-1. Make sure the Region is the same as your Resource Group and we'll set our Availability Options set to No infrastructure and Security Type to Standard for this tutorial
+  - Set the Image (our Operating System) to Windows 10 Pro, Version 22H2, x64 Gen2
+  - The Size selected dicates the general processing power and RAM of our VM, for this tutorial we'll set it to Standard_E2s_V3 which provides 2 virtual CPUs and 16 GBs of RAM
