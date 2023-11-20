@@ -58,5 +58,13 @@
 <h2>Virtual Machine Remote Login</h2>  
 
 - Remote Desktop
+  - Through <b>Azure Services</b>, go to <b>Virtual Machines</b> and select VM1, from this page you can obtain the Public IP Address which we will use to connect to it via Remote Desktop Connection
+
+  ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/515fc9d4-b815-4385-b440-f91aac41ba57)
+
   - Using Remote Desktop, We will login to our newly created <b>Virtual Machine</b>
-  - Through <b>Azure Services</b>, go to <b>Virtual Machines</b> and select VM1, click on Connect to connect to the VM, from this page you can obtain the Public IP Address which we will use to connect to it via Remote Desktop Connection
+
+  ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/bf18a66b-fc6a-4065-aad5-8eac6a2be28f)
+
+
+
