@@ -49,3 +49,14 @@
   - Go to the <b>Networking</b> tab, the Virtual Network created by the <b>Virtual Machine</b> should have been made by the Resource Group. It will be made automatically by the Virtual Machine.
   
   ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/7954a468-e0db-425e-ad26-e1e9d4209fb0)
+
+  - The Following Screen will indicate when your <b>Virtual Machine</b> is complete
+ 
+   ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/c9bf33ee-4ff1-41fd-9542-0a99894ea8a7)
+
+  
+<h2>Virtual Machine Remote Login</h2>  
+
+- Remote Desktop
+  - Using Remote Desktop, We will login to our newly created <b>Virtual Machine</b>
+  - Through <b>Azure Services</b>, go to <b>Virtual Machines</b> and select VM1, click on Connect to connect to the VM, from this page you can obtain the Public IP Address which we will use to connect to it via Remote Desktop Connection
