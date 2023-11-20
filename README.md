@@ -23,18 +23,29 @@
 <h2>Creating our Resource Group and Virtual Machines </h2>
  
 - Resource Group
-  - Through Azure Services, go to Resource groups to create a Resource Group and name your Resource Group What ever you need it to be for your job or project, this case we will just call ours RG1. When choosing a Region for your Resouce Group, rember which once you chose as it will come in play when setting up our VMs so we can put them into the same region. Once done click on Review + Create. This may take a while on the back end to fully complete.
-   
-![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/9b8992ad-ed4f-4223-9fca-9b689bd74423)
+
+   - Through Azure Services, go to <b>Resource Groups</b> to create a Resource Group and name your Resource Group What ever you need it to be for your job or project, this case we will just call ours RG1. When choosing a Region for your Resouce Group, rember which once you chose as it will come in play when setting up our VMs so we can put them into the same region. Once done click on Review + Create. This may take a while on the back end to fully complete.
+  
+   ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/9b8992ad-ed4f-4223-9fca-9b689bd74423)
 
 - Virtual Machine
-  - Through Azure Services, go to Virtual Machines to create an Azure Virtual Machine. 
+  - Through Azure Services, go to <b>Virtual Machines</b> to create an Azure Virtual Machine. 
 
-![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/c9cb22eb-8894-4e3b-aeb8-9efc56dac545)
+  ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/c9cb22eb-8894-4e3b-aeb8-9efc56dac545)
+   
+   - Select the Resource group we have already created (RG1) and name the virtual machine VM1. Make sure the Region is the same as your Resource Group and we will set our <b>Availability Options</b> to No infrastructure and Security Type to Standard.
+   - Set the Image (our Operating System) to Windows 10 Pro, Version 22H2, x64 Gen
 
-* Select the Resource group we have already created (RG1) and name the virtual machine VM1. Make sure the Region is the same as your Resource Group and we will set our Availability Options to No infrastructure and Security Type to Standard.
-* Set the Image (our Operating System) to Windows 10 Pro, Version 22H2, x64 Gen
-    
-![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/2a70790f-ed0d-486a-ac3d-101b33a77cb3)
+  ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/2a70790f-ed0d-486a-ac3d-101b33a77cb3)
+   
+   - The Size selected dicates the general processing power and RAM of our VM, for this tutorial we'll set it to <b>Standard_D4s_V3</b> which provides 4 virtual CPUs and 16 GiBs of RAM (memory, which allows more application usage).
+  
+  ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/66a6c1c7-1f13-4d8b-9f0c-615d2608f609)
 
- * The Size selected dicates the general processing power and RAM of our VM, for this tutorial we'll set it to Standard_D4s_V3 which provides 4 virtual CPUs and 16 GiBs of RAM (memory, which allows more application usage)
+   - Set the username and password to login to your <b>Virtual Machine</b>, make sure to check the box for the licensing agreement.
+
+  ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/9e7b81ad-fd69-4e48-9309-20fd464076ac)
+
+  - Go to the <b>Networking</b> tab, the Virtual Network created by the <b>Virtual Machine</b> should have been made by the Resource Group. It will be made automatically by the Virtual Machine.
+  
+  ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/7954a468-e0db-425e-ad26-e1e9d4209fb0)
