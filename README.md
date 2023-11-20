@@ -62,9 +62,16 @@
 
   ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/515fc9d4-b815-4385-b440-f91aac41ba57)
 
-  - Using Remote Desktop, We will login to our newly created <b>Virtual Machine</b>
-
+  - Using Remote Desktop, We will login to our newly created <b>Virtual Machine</b>. Copy the address and paste it into the Remote Desktop Connection and click on Connect to login. Use the username and password that was set up when creating VM1 in Microsoft Azure.
+ 
   ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/bf18a66b-fc6a-4065-aad5-8eac6a2be28f)
 
+  - Side note if you recieve this pop up, click yes to proceed
+ 
+  ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/da3858cb-7150-4002-b115-dd27eb190c7c)
+
+  - You have successfully logged into your newly created Virtual Machine!
+ 
+    ![image](https://github.com/Velezdrv/Creating-A-Virtual-Machine/assets/147437260/cbb79e42-1680-403b-a8e8-fe56c0b97876)
 
 
